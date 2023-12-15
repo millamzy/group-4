@@ -24,12 +24,14 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    
     /* background: #719471; */
 }
 
 
 .wrapping{
-    margin: 0 120px 0 120px;
+    margin: 0 20px 0 20px;
+    /* background-color: #008000; */
 }
 
 
@@ -60,17 +62,18 @@
 }
 
 .aboutpic{
-    width: 1105px;
-    height: 515px;
+  
     /* background: #008000; */
     margin-bottom: 61px;
 }
 
 .aboutpic img{
-    width: 100%;
+    /* width: 100%;
     height: 100%;
-    object-fit: cover;
-
+    object-fit: cover; */
+    width: 835px;
+    height: 515px;
+    margin-left: 100px;
 }
 
 .define_us h2{
@@ -101,6 +104,7 @@
 
     .wrapping{
         margin: 0 24px 0 24px;
+        color: #000;
     }
 
     .heading{
@@ -113,16 +117,18 @@
 
 
     .aboutpic{
+        display: block;
+        align-items: center;
         margin: 0 auto;
-        width: 340px;
-        height: 259px;
+        margin-left: -15px;
+     
         /* background: #008000; */
         margin-bottom: 61px;
     }
     
     .aboutpic img{
-        width: 100%;
-        height: 100%;
+        width: 340px;
+        height: 259px;
         object-fit: cover;
     
     }

@@ -206,7 +206,7 @@
     .nav div.main_list ul li{
         width: 100%;
         height: 40px;
-        background-color:rgba(0,0,255,0.8);
+        background-color:var(--green-light);
     }
     
     .nav div.main_list ul li a{
@@ -221,6 +221,7 @@
         display: block;
     }
 
+    
 
 }
 
