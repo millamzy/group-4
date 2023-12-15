@@ -1,0 +1,80 @@
+
+:root {
+    --green: #008000;
+    --black: rgb(29, 27, 27);
+    --light_green: #F5FFF5;
+    --background:#FFFFFF;
+    --box_shadow:#00000040;
+    --dash:#F8F8AB;
+    --grey:#3F3F3F;
+    --small:#000000;
+    --faq:#1A1A1A;
+  }
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    box-shadow: inset rgba(249, 248, 248, 1);
+    width: 100vh;
+  
+}
+
+.wrapper{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.buttonSeller{
+    padding:1rem; 
+    border-radius: 10px;
+    width:350px;
+    height: 80px;
+    margin-top: 250px;
+    margin-left: 590px;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    background-color: var(--green);
+}
+
+.buttonBuyer{
+    padding:1rem; 
+    border-radius: 10px;
+    width:350px;
+    height: 80px;
+    margin-top: 150px;
+    margin-left: 590px;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+
+
+
+
+
+
+
+
+  @media(max-width:960px){
+    
+
+
+
+
+
+}

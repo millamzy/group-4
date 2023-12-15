@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputarea {
+    margin-top: 100px;
+    
+}
+
+.inputarea h2{
+    margin-bottom: 40px;
+}
+
+.inputarea p{
+    margin-bottom: 4px;
+}
+
+.inputarea input {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+.inputarea span, a{
+    color: #0E870E;
+}
+.login {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #0E870E;
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

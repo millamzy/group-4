@@ -1,0 +1,25 @@
+:root {
+  --green: #008000;
+  --black: rgb(29, 27, 27);
+  --light_green: #F5FFF5;
+  --background:#FFFFFF;
+  --box_shadow:#00000040;
+  --dash:#F8F8AB;
+  --grey:#3F3F3F;
+  --small:#000000;
+  --faq:#1A1A1A;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+
+.main{
+  margin: 100px 0 0 0;
+}
+/* MEDIA QUERY */
+

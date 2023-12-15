@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.track-topic {
+    margin: 5rem;
+    margin-left: 5rem;
+    text-align: left;
+}
+
+.track-title {
+    /* background-color: blue;   */
+    margin-top: 6rem;
+}
+
+.track-text {
+    padding-left: 8px;
+    margin-top: 1.5rem;
+    /* background-color: red; */
+}
+
+.track-span-text {
+    font-size: 11px;
+}
+
+.track-head {
+    font-size: 30px;
+}
+
+/* .track-line {
+    text-align: center;
+    background-color: blue;
+    height: 30px;
+}
+
+.line-control {
+    position: relative;
+    justify-content: center;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle1, .circle2, .circle3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(248, 248, 195);
+    border-radius: 50%;
+    border: 1.2px rgb(15, 215, 15) solid;
+}
+
+.circle1 {
+    
+    top: 0;
+    left: 370px;
+}
+
+.circle2 {
+    top: 0; 
+    left: 880px;
+}
+
+.line {
+    width: 250px;
+    height: 7px;
+    margin-top: 2px;
+    background-color: rgb(248, 248, 195);
+} */
+
+.me {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #0E870E;
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.track-content {
+    padding: 3rem;
+    padding-left: 4rem;
+    margin: 5rem;
+    background-color: rgb(243, 252, 243);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 80px; */
+}
+
+@media (max-width: 768px) {
+    .track-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 480px) {
+    .track-content {
+        grid-template-columns: 1fr;
+        /* Single column for small screens */
+    }
+}
+
+.track-info1 {
+    /* justify-content: end;
+    text-align: right; */
+    /* margin-left: 1rem; */
+}
+
+table {
+    margin-left: 1rem;
+}
+
+.track-p2 {
+    background-color: rgb(208, 253, 208);
+    width: 240px;
+}
+
+.track-td {
+    /* background-color: red; */
+    padding: 8px 7px 8px 0; 
+    font-size: 11px;
+}
+
+.track-td2 {
+    padding: 8px 60px 8px 0;
+    font-size: 11px;
+}
+
+.track-p {
+    font-size: 11px;
+}
+
+.track-p3 {
+    font-size: 11px;
+    padding: 5px;
+}
+
+.track-field {
+    margin-left: 1rem;
+}
+
+.weigh-image {
+    /* width: 10px; */
+}
+
+.track-img {
+    width: 90px;
+    height: 50px;
+}
+
+.track-weigh {
+    display: flex;
+    gap: 5px;
+}
+
+.weigh-div {
+    background-color: rgb(208, 253, 208);
+    height: 50px;
+}
+
+.weigh-p {
+    font-size: 11px;
+    margin: 17px 35px;
+}
