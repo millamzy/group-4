@@ -19,25 +19,29 @@ body{
     background-color: lightgray;
     box-shadow: inset rgba(249, 248, 248, 1);
     width: 100vh;
+    display: flex;
+    flex-direction: column;
+    
   
 }
 
-.wrapper{
- 
+.wrapper1{
+  margin: 9rem 0 0 10rem ;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* background-color: #800024; */
+  width: 200px;
+  height: 400px;
 
 }
 
 .buttonSeller{
+  margin-top: 4rem;
     padding:1rem; 
     border-radius: 10px;
     width:350px;
     height: 80px;
-    margin-top: 250px;
-    margin-left: 590px;
     font-family: Poppins;
     font-size: 35px;
     font-weight: 600;
@@ -47,12 +51,11 @@ body{
 }
 
 .buttonBuyer{
+  margin-top: 7rem;
     padding:1rem; 
     border-radius: 10px;
     width:350px;
     height: 80px;
-    margin-top: 150px;
-    margin-left: 590px;
     font-family: Poppins;
     font-size: 35px;
     font-weight: 600;
@@ -74,7 +77,41 @@ body{
     
 
 
-
+    .wrapper1{
+      right: 00rem; 
+      width: 200px;
+      height: 200px;
+    
+    }
+    
+    .buttonSeller{
+      margin-top: 4rem;
+        padding:1rem; 
+        border-radius: 10px;
+        width:150px;
+        height: 80px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color:white;
+        background-color: var(--green);
+    }
+    
+    .buttonBuyer{
+      margin-top: 7rem;
+        padding:1rem; 
+        border-radius: 10px;
+        width:150px;
+        height: 80px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color:black;
+        background-color: lightgoldenrodyellow;
+        
+    }
 
 
 }
