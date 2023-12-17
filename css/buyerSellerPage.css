@@ -12,26 +12,30 @@
   }
 
 
-
-body{
+  body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+
+
+.mama{
+   margin: 30%;
     background-color: lightgray;
     box-shadow: inset rgba(249, 248, 248, 1);
-    width: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
     
   
 }
 
 .wrapper1{
-  margin: 9rem 0 0 10rem ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* margin: 9rem 0 0 30rem ; */
   /* background-color: #800024; */
-  width: 200px;
+  width: 400px;
   height: 400px;
 
 }
@@ -75,17 +79,23 @@ body{
 
   @media(max-width:960px){
     
-
+    .mama{
+  height: 300px;
+  width: 300px;
+  margin-left: 119px;
+    }
+       
+     
 
     .wrapper1{
-      right: 00rem; 
+    
       width: 200px;
       height: 200px;
     
     }
     
     .buttonSeller{
-      margin-top: 4rem;
+      margin-top: 2rem;
         padding:1rem; 
         border-radius: 10px;
         width:150px;
@@ -99,7 +109,7 @@ body{
     }
     
     .buttonBuyer{
-      margin-top: 7rem;
+      margin-top: 5rem;
         padding:1rem; 
         border-radius: 10px;
         width:150px;
