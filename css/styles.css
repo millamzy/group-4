@@ -81,11 +81,11 @@
 
 .nav div.main_list ul li a:hover{
     /* color:var(--lightyellow); */
-   background-color: var(--lightyellow);
+   /* background-color: var(--lightyellow);
    width: 20px;
    height: 3px;
    border-radius: 1rem;
-   padding: 4px;
+   padding: 4px; */
 }
 
 .nav div.media_button {
@@ -221,9 +221,7 @@
         display: block;
     }
 
-    .nav div.main_list ul li a:hover{
-       display: none;
-    }
+  
 
 
     /* main body */ 
