@@ -221,6 +221,10 @@
         display: block;
     }
 
+
+    /* main body */ 
+
+   
     
 
 }
@@ -798,15 +802,17 @@ footer{
 
      @media (max-width:960px){
 
-        
-        
+ 
         main, footer{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            align-items: center;
+            /* justify-content: center; */
+            /* padding: 0 24px 0 24px; */
             /* align-items: flex-start; */
         /* margin: 0 6rem 0 6rem;  
-        padding: 0 24px 0 24px;  */
+         */
+      
     }
     .inp{
         width: 200px;
@@ -841,10 +847,7 @@ footer{
         background-image: url(../image/top1mob.png);
        
     }
-    .section1{
-        display: flex;
-        align-items: center;
-    }
+   
     .section1 > h1{
         color: var(--green);
         margin-top:20px;
@@ -889,15 +892,13 @@ footer{
 
     }
 
-    .section2{
+    .section1, .section2,  .section3,.section5{
         display: flex;
         flex-direction: column;
-        /* align-items: center;
-        justify-content: center; */
-        margin-top: 4rem;
-        margin-right: 600px;
-        width: 900px;
+        margin-top: 3rem;
+        width: 400px;
         margin-bottom: 10rem;
+      
     }
 
     .left1 > h1{
@@ -906,6 +907,7 @@ footer{
         font-weight: 600;
         line-height: 23.98px;
         margin: 0 160px 0 0;
+        width: 100%;
     }
     
     .left1 > p{
@@ -918,7 +920,69 @@ footer{
         /* max-width: 100%;
         word-wrap: break-word; */
     }
+    .section4{
+        
+        margin-top: -7rem;
+        width: 400px;
+        margin-bottom: 10rem;
+   
+
+    }
+    .left3 > p{
+          /* text-align: center; */
+          margin-top: 10px;
+          font-size: 14px;
+          color: var(--gray);
+          padding: 0 7px 0 0;  
+          line-height: 22px;
+           max-width: 100%;     
+    }
+
+    .section5{   
+        margin-top: -7rem;
+        width: 400px;
+        margin-bottom: 10rem;
+
+    }
     
+    .right4 > h1{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 23.98px;
+        margin: 0 160px 0 0;
+        width: 380px;
+    }
+
+    .right4 > p{
+        margin-top: 10px;
+        font-size: 14px;
+        color: var(--gray);
+        padding: 0 7px 0 0;  
+        line-height: 22px;
+         max-width: 100%; 
+    }
+
+    .section6{   
+        margin-top: -8rem;
+        width: 400px;
+        margin-bottom: 1rem;
+       
+    }
+
+    .section7{   
+        margin-top: 2rem;
+        width: 400px;
+        margin-bottom: 10rem;
+        padding: 20px;
+      
+    }
+    
+    
+
+
+   
+
+
     .yellowbutton, .yellowbutton2, .yellowbutton3, .yellowbutton4, .yellowbutton5, .yellowbutton6, .yellowbutton7{
         margin-top: 1rem;
         width: 145px;
@@ -950,9 +1014,11 @@ footer{
     }
 
     .section3, .section5{
-        display: flex;
+        /* display: flex; */
         flex-direction: column-reverse;
         margin-top: -8.4rem;
+        background-color: #F5FFF5;
+        
     }
 
     
@@ -989,10 +1055,6 @@ footer{
     .card{
         display: flex;
         flex-direction: column;
-        /* align-items: center;
-        justify-content: space-between;
-        gap:40px;
-         */
          align-items: start;
          justify-content: center;
     }
@@ -1011,9 +1073,7 @@ footer{
         height:201px;
     }
 
-    /* .card1 h3, .card2 h3, .card3 h3{
-        order: 0;
-    }*/
+ 
 
     .card1 p, .card2 p, .card3 p{
         padding-bottom: 20px;
@@ -1023,9 +1083,6 @@ footer{
      margin-top: 0;
     } 
 
-    .card2{
-        /* margin-left: -8rem; */
-    }
 
 
 
@@ -1048,7 +1105,8 @@ footer{
     .section8{
         display: flex;
         flex-direction: column;
-        margin-top: 20rem;
+        /* margin-top: 20rem; */
+     
     }
 
 
@@ -1057,6 +1115,7 @@ footer{
         font-weight: 600;
         line-height: 21px;
         text-align: center;
+       
     }
 
     .play{
@@ -1064,6 +1123,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+  ;
     }
 
     .play img{
@@ -1082,12 +1142,13 @@ footer{
         margin-top: 4rem;
         width: 393px;
         height: 150px;
+      
     }
 
 
     .foot{
-        display: flex;
-        align-items: center; 
+        /* display: flex;
+        align-items: center;  */
         justify-content: space-between;
         /* padding: 0 90px 0 90px; */
         color: var(--footergreen);
@@ -1104,17 +1165,7 @@ footer{
        
     }
     
-    
-    .footerline{
-        
-        margin-top: 20px;
-        
-        width: 1116px;
-        background-color: var(--green-light);
-       
-    
-    }
-    
+
     
     .lastfoot{
         margin-top: 1.4rem;
@@ -1147,9 +1198,3 @@ footer{
 
  } 
 
- @media (max-width: 768px) {
-   main{
-    
-   }
-
-}
