@@ -1,72 +1,68 @@
-
 :root {
-    --green: #008000;
-    --black: rgb(29, 27, 27);
-    --light_green: #F5FFF5;
-    --background:#FFFFFF;
-    --box_shadow:#00000040;
-    --dash:#F8F8AB;
-    --grey:#3F3F3F;
-    --small:#000000;
-    --faq:#1A1A1A;
-  }
-
-
-  body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-
-.mama{
-   margin: 30%;
-    background-color: lightgray;
-    box-shadow: inset rgba(249, 248, 248, 1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 200px;
-    
-  
+  --green: #008000;
+  --black: rgb(29, 27, 27);
+  --light_green: #F5FFF5;
+  --background:#FFFFFF;
+  --box_shadow:#00000040;
+  --dash:#F8F8AB;
+  --grey:#3F3F3F;
+  --small:#000000;
+  --faq:#1A1A1A;
 }
 
-.wrapper1{
-  /* margin: 9rem 0 0 30rem ; */
-  /* background-color: #800024; */
-  width: 400px;
-  height: 400px;
+body{
+background-color: lightgray;
+box-shadow: inset rgba(249, 248, 248, 1);
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;  
+}
+
+
+.wrapper{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
 }
 
 .buttonSeller{
-  margin-top: 4rem;
-    padding:1rem; 
-    border-radius: 10px;
-    width:350px;
-    height: 80px;
-    font-family: Poppins;
-    font-size: 35px;
-    font-weight: 600;
-    text-align: center;
-    color:white;
-    background-color: var(--green);
+  position: absolute;
+  top: 250px;
+  bottom: 8px;
+  padding:1rem; 
+  border-radius: 10px;
+  width:350px;
+  height: 80px;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color:white;
+  background-color: var(--green);
 }
 
 .buttonBuyer{
-  margin-top: 7rem;
-    padding:1rem; 
-    border-radius: 10px;
-    width:350px;
-    height: 80px;
-    font-family: Poppins;
-    font-size: 35px;
-    font-weight: 600;
-    text-align: center;
-    color:black;
-    background-color: lightgoldenrodyellow;
-    
+  position: absolute;
+  bottom: 200px;
+  /* margin-bottom: 100px; */
+  top: 500px;
+  padding:1rem; 
+  border-radius: 10px;
+  width:350px;
+  height: 80px;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color:black;
+  background-color: lightgoldenrodyellow;
+  
 }
 
 
@@ -77,51 +73,14 @@
 
 
 
-  @media(max-width:960px){
-    
-    .mama{
-  height: 300px;
-  width: 300px;
-  margin-left: 119px;
-    }
-       
-     
+@media(max-width:768px){
+  
+ 
+  .wrapper{
 
-    .wrapper1{
-    
-      width: 200px;
-      height: 200px;
-    
-    }
-    
-    .buttonSeller{
-      margin-top: 2rem;
-        padding:1rem; 
-        border-radius: 10px;
-        width:150px;
-        height: 80px;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 600;
-        text-align: center;
-        color:white;
-        background-color: var(--green);
-    }
-    
-    .buttonBuyer{
-      margin-top: 5rem;
-        padding:1rem; 
-        border-radius: 10px;
-        width:150px;
-        height: 80px;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 600;
-        text-align: center;
-        color:black;
-        background-color: lightgoldenrodyellow;
-        
-    }
+    max-width: 100%;
+  
+  }
 
 
 }
