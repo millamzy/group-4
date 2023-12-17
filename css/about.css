@@ -102,8 +102,12 @@
 
 @media(max-width:768px){
 
+    .whole{
+        display: flex;
+        align-items: center;
+    }
     .wrapping{
-        margin: 0 24px 0 24px;
+        /* margin: 0 24px 0 24px; */
         color: #000;
     }
 
@@ -117,25 +121,27 @@
 
 
     .aboutpic{
-        display: block;
+        /* display: block;
         align-items: center;
-        margin: 0 auto;
-        margin-left: -15px;
+        margin: 0 auto; */
+        /* margin-left: 40px; */
      
         /* background: #008000; */
         margin-bottom: 61px;
+        margin-right: 40px;
     }
     
     .aboutpic img{
+        margin-left: 3px;
         width: 340px;
         height: 259px;
-        object-fit: cover;
+        /* object-fit: cover; */
     
     }
 
 
     .topping_one{
-        text-align: center;
+        /* text-align: center; */
     }
 
 

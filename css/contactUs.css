@@ -132,16 +132,39 @@ div input:nth-of-type(3){
 
 
 @media(max-width:768px){
+
+  .ok{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 90px;
+  }
+/* 
+  /* table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */ */
   tr{
-    display: block;
-    box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-sizing: border-box; */
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    color: var(--green);
+    margin-left: 50px;
+    padding: 0 30px 0 30px;
+}
+
+.nene{
+  /* padding: 20px; */
+  width: 160px;
+  height: 150px;
 }
 
 td{
-  width: 70%;
+  width: 80%;
 }
 
 
@@ -160,6 +183,7 @@ margin-left: -140px;
 
 .box_shad{
 font-size: 14px;
+padding: 0 20px 10px;
 }
 
 .question{
