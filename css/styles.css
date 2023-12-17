@@ -222,11 +222,7 @@
     }
 
     .nav div.main_list ul li a:hover{
-        /* color:var(--lightyellow); */
-        align-self: center;
-       color: var(--lightyellow);
-       right: 0;
-       left: 0;
+       display: none;
     }
 
 
