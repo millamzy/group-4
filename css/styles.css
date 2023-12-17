@@ -82,7 +82,7 @@
 .nav div.main_list ul li a:hover{
     /* color:var(--lightyellow); */
    background-color: var(--lightyellow);
-   width: 100px;
+   width: 20px;
    height: 3px;
    border-radius: 1rem;
    padding: 4px;
@@ -219,6 +219,14 @@
     
     .nav div.media_button{
         display: block;
+    }
+
+    .nav div.main_list ul li a:hover{
+        /* color:var(--lightyellow); */
+        align-self: center;
+       color: var(--lightyellow);
+       right: 0;
+       left: 0;
     }
 
 
@@ -803,12 +811,14 @@ footer{
      @media (max-width:960px){
 
  
-        main, footer{
+        main{
             display: flex;
             flex-direction: column;
             align-items: center;
+            /* margin: 0 10px 0 10px; */
+            /* background-color: red;    */
             /* justify-content: center; */
-            /* padding: 0 24px 0 24px; */
+            /*  */
             /* align-items: flex-start; */
         /* margin: 0 6rem 0 6rem;  
          */
@@ -1072,7 +1082,11 @@ footer{
         width:343px;
         height:201px;
     }
+   
+    .card1 > p,.card2 > p, .card3 > p {
+        width: 350px;
 
+    }
  
 
     .card1 p, .card2 p, .card3 p{
@@ -1142,6 +1156,8 @@ footer{
         margin-top: 4rem;
         width: 393px;
         height: 150px;
+        margin-right: 40px;
+        align-items: center;
       
     }
 
@@ -1155,6 +1171,7 @@ footer{
         font-size: 8px;
         font-weight: 400; 
         gap: 62px;
+        /* background-color: #220766; */
        
     }
 
